@@ -1,0 +1,40 @@
+.parent-support-page {
+    
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+    
+}
+
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+}

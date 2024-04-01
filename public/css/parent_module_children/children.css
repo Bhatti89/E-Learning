@@ -1,0 +1,25 @@
+/* public/css/parent_module/styles.css */
+h1
+{
+display: flex;
+justify-content: center;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 20px;
+    align-items: center;
+}
+
+.child-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: xx-large;
+}

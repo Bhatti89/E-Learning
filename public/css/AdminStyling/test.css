@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Layout styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar styles */
+.parent-main-page {
+    background-color: #333; /* Change this to your desired background color */
+    color: #fff; /* Change this to your desired text color */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Center content styles */
+.parent-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .button-container {
+        padding: 10px;
+    }
+}

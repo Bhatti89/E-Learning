@@ -1,0 +1,37 @@
+/* pagedetail.css */
+
+.parent-main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.blue-button {
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: x-large;
+}
+
+.display {
+    margin: 10px 0;
+}
+
+/* Center the "Create New Page" button */
+.blue-button.create-new-page {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Add more styles as needed for other elements */

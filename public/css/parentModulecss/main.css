@@ -1,0 +1,31 @@
+.parent-main-page {
+    text-align: center;
+    margin: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+    
+}
+h1{
+    margin: 5px;
+}
+.blue-button {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}

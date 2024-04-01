@@ -1,0 +1,31 @@
+/* public/css/AdminStyling/quizwithchoices.css */
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered {
+    margin-bottom: 20px;
+}
+
+/* Updated styling for the pairs of text and URL inputs */
+.quiz-inputs-pair {
+    display: flex;
+    flex-direction: column; /* Stack text and URL vertically */
+    align-items: center; /* Center the pairs horizontally */
+    margin-bottom: 10px; /* Adjust the spacing between pairs as needed */
+}
+
+.quiz-inputs-text,
+.quiz-inputs-url {
+    width: 200px; /* Set a fixed width for the inputs */
+    margin: 5px; /* Adjust the spacing between text and URL within the pair */
+}
+
+.big {
+    display: flex;
+    flex-direction: column; /* Stack pairs vertically */
+    align-items: center; /* Center the pairs vertically */
+    margin: 20px;
+}
